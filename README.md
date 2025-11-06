@@ -1,5 +1,5 @@
-sequenceDiagram
-    participant User
-    participant Server
-    User->>Server: Request data
-    Server-->>User: Return data
+graph TD
+    A[Start] --> B{Is it working?}
+    B -->|Yes| C[Great!]
+    B -->|No| D[Fix it]
+    D --> B
